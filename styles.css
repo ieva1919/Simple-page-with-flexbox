@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px white solid;
+}
+
+.menu nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    padding: 20px 10px;
+}
+
+#mission {
+    height: 700px;
+    background-image: url(img/background.webp);
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
